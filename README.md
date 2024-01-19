@@ -1,11 +1,24 @@
 # HPC_CompSci
-To install required packages:
+Recommended usage:
 ```
-pip install requirements.txt
-```
-```
-python angle_conversion.py INPUT
-```
-Basic command-line tool to add euler angles to input excel file.
+conda create -n hpc_data
 
-Output stored as same file name followed by euler.
+conda activate hpc_data
+
+conda install mediapipe pandas numpy scikit-learn opencv tqdm
+```
+How to process video files:
+```
+Mediapipe:
+python mediapipe_batch_process.py
+```
+```
+Vibe:
+TBD
+```
+How to process pkl and csv files:
+```
+python biomechanics_processing.py
+```
+
+
