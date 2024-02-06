@@ -1,7 +1,7 @@
 import math
 import json
 import numpy as np
-from scipy.signal import savgol_filter
+from scipy.signal import savgol_filter, butter
 from scipy.spatial import distance
 import pandas as pd
 import more_itertools
